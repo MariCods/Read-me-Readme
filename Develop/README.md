@@ -1,23 +1,23 @@
-#[object Object]
+# Readme
 
-    ##Description
-    undefined
+    # Description
+    I created a nodejs genreator with the help of Inquirer. This Allowed me to continually generate readmes after answering questions.
 
-    ##Installation
-    undefined
+    # Installation
+    I downloaded the starter code. Created a question const, then a const for the template and then a function to intlize it.
 
-    ##Credit
-    undefined
+    # Credit
+    N/A
 
-    ##License
-    undefined
+    # License
+    MIT
 
-    ##Features
-    undefined
+    # Features
+    N/A
 
-    ##Contributions
-    undefined
+    # Contributions
+    N/A
 
-    ##Test
-    undefined
+    # Test
+    N/A
     

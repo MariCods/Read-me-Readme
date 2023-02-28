@@ -51,29 +51,29 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function readmeMarkdown(Title, Description, Installation, Credit, License, Features, Contributions, Tests) { 
-    return `#${Title}
+function readmeMarkdown(response) { 
+    return `#${response.Title}
 
-    ## Description
-    ${Description}
+    #Description
+    ${response.Description}
 
-    ## Installation
-    ${Installation}
+    #Installation
+    ${response.Installation}
 
-    ## Credit
-    ${Credit}
+    #Credit
+    ${response.Credit}
 
-    ## License
-    ${License}
+    #License
+    ${response.License}
 
-    ## Features
-    ${Features}
+    #Features
+    ${response.Features}
 
-    ## Contributions
-    ${Contributions}
+    #Contributions
+    ${response.Contributions}
 
-    ## Test
-    ${Tests}
+    #Test
+    ${response.Tests}
     `;
 } 
 
@@ -86,6 +86,7 @@ function init() {
     fs.writeFile('README.md', mdpageContent, (err) =>
     err ? console.log(err) : console.log('Successfully created README.md!')
     );
+    console.log(response)
   })
  }
 
