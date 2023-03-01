@@ -107,13 +107,6 @@ ${response.Github}(https://github.com/${response.Github})
 
 Please contact me at ${response.Email} if you have any further questions for comments. I will get back to you as soon as possible.
 
-![Screenshot](./images/Generated%20Readme%202.jpg)
-![Screenshot](./images/Generated%20Readme.jpg)
-![Screenshot](./images/Generator%20prompt.jpg)
-![Screenshot](./images/Opening%20Generator.jpg)
-![Screenshot](./images/Readme%20code.jpg)
-![Screenshot](./images/readme%20gen%20preview.jpg)
-![Screenshot](./images/SharedScreenshot.jpg)
 Video Usage Link(https://drive.google.com/file/d/1Jw8BwIsUK7yxUyN5TkXvKtyz3UYFdptq/view)
 `;
 } 
