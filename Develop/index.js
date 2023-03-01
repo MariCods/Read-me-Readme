@@ -31,7 +31,7 @@ const questions = [
         type: "list",
         message: "Choose a License from the following. ",
         name: "License",
-        choices: ["MIT", "Apache", "ISC", "zLIB", "Artistc"]
+        choices: ["MIT", "Apache 2.0", "ISC", "zLIB", "Artistc 2.0"]
     },
     {
         type: "input",
@@ -48,33 +48,50 @@ const questions = [
         message: "Provide examples of how to test application.",
         name: "Tests"
     },
+    {
+        type: "input",
+        message: "Please provide your Github Username.",
+        name: "Github"
+    },
+    {
+        type: "input",
+        message: "Please provide your email.",
+        name: "Email"
+    },
 ];
 
 // TODO: Create a function to write README file
 function readmeMarkdown(response) { 
-    return `#${response.Title}
+return `# ${response.Title}
 
-    #Description
-    ${response.Description}
+# Description
+ ${response.Description}
 
-    #Installation
-    ${response.Installation}
+# Installation
+${response.Installation}
 
-    #Credit
-    ${response.Credit}
+# Credit
+${response.Credit}
 
-    #License
-    ${response.License}
+# License
+   
+[![License](https://img.shields.io/badge/license-${response.License}-lightgrey.svg)](https://opensource.org/licenses/${response.License})
 
-    #Features
-    ${response.Features}
+# Features
+${response.Features}
 
-    #Contributions
-    ${response.Contributions}
+# Contributions
+${response.Contributions}
 
-    #Test
-    ${response.Tests}
-    `;
+# Test
+${response.Tests}
+
+# Questions
+${response.Github}(https://github.com/${response.Github})
+
+Please contact me at ${response.Email} if you have any further questions for comments. I will get back to you as soon as possible.
+
+`;
 } 
 
 // TODO: Create a function to initialize app

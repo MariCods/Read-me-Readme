@@ -1,23 +1,29 @@
-# Readme
+# README Gen
 
-    # Description
-    I created a nodejs genreator with the help of Inquirer. This Allowed me to continually generate readmes after answering questions.
+# Description
+ N/A
 
-    # Installation
-    I downloaded the starter code. Created a question const, then a const for the template and then a function to intlize it.
+# Installation
+N.
 
-    # Credit
-    N/A
+# Credit
+n
 
-    # License
-    MIT
+# License
+   
+[![License](https://img.shields.io/badge/license-zLIB-lightgrey.svg)](https://opensource.org/licenses/zLIB)
 
-    # Features
-    N/A
+# Features
+N
 
-    # Contributions
-    N/A
+# Contributions
+N
 
-    # Test
-    N/A
-    
+# Test
+N
+
+# Questions
+MariCods(https://github.com/MariCods)
+
+Please contact me at marydrawing@gmail.com if you have any further questions for comments. I will get back to you as soon as possible.
+
