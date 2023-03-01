@@ -31,7 +31,7 @@ const questions = [
         type: "list",
         message: "Choose a License from the following. ",
         name: "License",
-        choices: ["MIT", "Apache 2.0", "ISC", "zLIB", "Artistc 2.0"]
+        choices: ["MIT", "Apache 1.1", "ISC", "zLIB", "Artistc 2.0"]
     },
     {
         type: "input",
@@ -64,6 +64,22 @@ const questions = [
 function readmeMarkdown(response) { 
 return `# ${response.Title}
 
+[Description](https://github.com/${response.Github}/Read-me-Readme/blob/main/Develop/README.md#description)
+
+[Installation](https://github.com/${response.Github}/Read-me-Readme/blob/main/Develop/README.md#installation)
+
+[Credit](https://github.com/${response.Github}/Read-me-Readme/blob/main/Develop/README.md#credit)
+
+[License](https://github.com/${response.Github}/Read-me-Readme/blob/main/Develop/README.md#license)
+
+[Features](https://github.com/${response.Github}/Read-me-Readme/blob/main/Develop/README.md#features)
+
+[Contributions](https://github.com/${response.Github}/Read-me-Readme/blob/main/Develop/README.md#contributions)
+
+[Test](https://github.com/${response.Github}/Read-me-Readme/blob/main/Develop/README.md#test)
+
+[Questions](https://github.com/${response.Github}/Read-me-Readme/blob/main/Develop/README.md#questions)
+
 # Description
  ${response.Description}
 
@@ -91,6 +107,14 @@ ${response.Github}(https://github.com/${response.Github})
 
 Please contact me at ${response.Email} if you have any further questions for comments. I will get back to you as soon as possible.
 
+![Screenshot](./images/Generated%20Readme%202.jpg)
+![Screenshot](./images/Generated%20Readme.jpg)
+![Screenshot](./images/Generator%20prompt.jpg)
+![Screenshot](./images/Opening%20Generator.jpg)
+![Screenshot](./images/Readme%20code.jpg)
+![Screenshot](./images/readme%20gen%20preview.jpg)
+![Screenshot](./images/SharedScreenshot.jpg)
+Video Usage Link(https://drive.google.com/file/d/1Jw8BwIsUK7yxUyN5TkXvKtyz3UYFdptq/view)
 `;
 } 
 
